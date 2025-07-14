@@ -1,0 +1,215 @@
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1160px;
+    }
+}
+
+header {
+    background: #141024;
+    color: #fff;
+    padding: 40px 25px 0 25px;
+}
+
+h1 {
+    padding: 200px 0 25px 0;
+    font-size: 70px !important;
+    font-weight: 600;
+}
+
+.header-descr {
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+
+.btn-danger {
+    width: 260px;
+    height: 79px;
+    background: #D52027;
+    font-size: 18px;
+    font-weight: 400;
+    border: 3px solid;
+}
+
+.main-img {
+    max-width: 350px;
+}
+
+.about, .perspectives, .team, .price, .forms {
+    padding: 120px 0;
+}
+
+.about-item-heading {
+    font-size: 70px;
+    font-weight: 600;
+    color: #D52027;
+}
+
+.about-item-text, .pers-item-text .team-item-text {
+    font-size: 18px;
+    color: #141024B2;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    padding: 60px 0;
+    font-size: 50px !important;
+    font-weight: 600 !important;
+    margin-bottom: 60px !important;
+    line-height: 160% !important;
+}
+
+.perspectives {
+    padding: 120px 0;
+    background: #f9f9f9;
+    flex-direction: column;
+    padding: 0 var(--container-offset);
+    max-width: var(--container-width);
+}
+
+.btn-danger:hover {
+    color: #D52027 !important;
+    background-color: #ffffff !important;
+    border: 3px solid;
+    border-color: #D52027;
+}
+
+.intro {
+    background: #141024;
+    color: #ffffff;
+}
+
+.btn-link {
+    padding-left: 0  !important;
+    padding-right: 0  !important;
+    text-decoration: none  !important;
+    color: #D52027 !important;
+}
+
+.team-item-img {
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.pers-h2, .team-h2, .price-h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.prise-card {
+    border: 1px solid rgba(20, 16, 36, 0.2);
+    padding: 40px;
+    border-radius: 20px;
+    transition: 300ms;
+    min-height: 440px;
+}
+
+.prise-card > h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px 0 50px 0;
+}
+
+.prise-card > span {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.prise-card > p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 50px 0;
+}
+
+.prise-card:hover {
+    background: #141024;
+    color: white;
+    transition: 300ms;
+    padding: 50px 0 60px 0;
+}
+
+.forms {
+    background: #D52027;
+    color: #fff;
+    background-image: url(percent.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.forms > div > div > div > h3 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 46.8px;
+    margin: 0 0 20px 0;
+}
+
+.forms > div > div > div > p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.form-control, .btn-dark {
+    width: 100%;
+    padding: 20px !important;
+    margin-bottom: 10px;
+    border-color: transparent;
+}
+
+.form-control::placeholder {
+    color: rgba(40, 41, 68, 0.7);
+    font-size: 18px;
+}
+
+.btn-dark {
+    transition: 400ms;
+}
+
+.btn-dark:hover {
+    background: #fff !important;
+    color: #D52027 !important;
+    border-color: transparent !important;
+    transition: 400ms !important;
+}
+
+footer {
+    background: #141024;
+    padding: 40px 0;
+}
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 15px;
+}
+
+.tel {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+.tel:hover {
+    color: #D52027;
+    transition: 300ms;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 20px !important;
+    margin: 0 20px;
+}
+
+.nav-link:hover {
+    color: #cdcdcd !important;
+}
